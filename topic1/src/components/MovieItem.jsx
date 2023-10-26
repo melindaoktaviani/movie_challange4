@@ -10,7 +10,7 @@ function MovieItem({ id, title, overview, imageURL }) {
             <Card.Body>
                 <Card.Title>{title}</Card.Title>
                 <Card.Text className="text-truncate">{overview}</Card.Text>
-                <Button as={Link} variant="primary" to={`/details/${id}`}>
+                <Button as={Link} variant="primary" to={`/DetailMovie/${id}`}>
                     Details Movie
                 </Button>
             </Card.Body>

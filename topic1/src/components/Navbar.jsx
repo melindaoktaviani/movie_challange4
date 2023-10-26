@@ -14,7 +14,7 @@ function NavbarComponent() {
                         <Nav.Link as={Link} to="/">
                             Home
                         </Nav.Link>
-                        <Nav.Link as={Link} to="/search">
+                        <Nav.Link as={Link} to="/SearchMovie">
                             Search Movie
                         </Nav.Link>
                     </Nav>
